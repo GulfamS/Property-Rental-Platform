@@ -1,0 +1,26 @@
+.home-container {
+    background-image: url("https://img.freepik.com/premium-photo/modern-house-dark-gray-tones-with-large-panoramic-windows-front-entrance_124507-44877.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699401600&semt=ais");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-heading {
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: left;
+    padding: 0px 35px 0px 35px;
+}
+
+.home-description {
+    font-family: Bree Serif;
+    color: #FFA500;
+    font-size: 35px;
+    text-align: left;
+    padding: 20px 35px 0px 45px;
+    margin-top: 70px;
+}

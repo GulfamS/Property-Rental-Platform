@@ -1,0 +1,41 @@
+.nav-header {
+    background-color: #ffffff;
+    height: 45px;
+    padding: 14px;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 40px;
+    width: 110px;
+    padding-top: 0px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-menu-item {
+    margin-right: 12px;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.nav-menu .first{
+    margin-right: 28px;
+}
+
+.nav-menu .second{
+    margin-right: 28px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}

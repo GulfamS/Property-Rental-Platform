@@ -1,0 +1,36 @@
+.property-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+}
+
+.sort-icon {
+    font-size: 40px;
+    margin-top: 18px;
+}
+
+.sort-container {
+    display: flex;
+    margin-top: 0px;
+}
+
+.sort-by {
+    font-family: Roboto;
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-top: 28px;
+}
+
+.select {
+    color: #475569;
+    background-color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    padding: 12px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 16px;
+}

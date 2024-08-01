@@ -1,0 +1,15 @@
+.heading {
+    color: rgb(56, 53, 53);
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.property-list {
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}

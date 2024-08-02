@@ -76,13 +76,13 @@ const Payment = () => {
           <p className="payment-method">Payment Method</p>
           {renderPaymentMethodInput()}
           <div>
-            <p className="order-details">Booking Details</p>
+            <p className="booking-details">Booking Details</p>
             <p>Quantity: {cartList.length}</p>
             <p>Total Price: RS {getTotalPrice()}/-</p>
           </div>
           <button
             type="button"
-            className="order-button"
+            className="book-button"
             disabled={paymentMethod === ''}
             onClick={onOrderPlaced}
           >

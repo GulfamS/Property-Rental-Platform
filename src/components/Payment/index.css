@@ -21,7 +21,7 @@
 }
   
 
-.order-details {
+.booking-details {
     font-family: Roboto;
     color: black;
     font-size: 22px;
@@ -59,7 +59,7 @@
     color: rgb(65, 63, 63);
 }
   
-.order-button {
+.book-button {
     background-color: rgb(51, 196, 51);
     font-family: Roboto;
     color: #ffffff;

@@ -7,6 +7,13 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+    .home-container{
+        width: 122vw;
+        background-size: cover;
+    }
+}
+
 .home-heading {
     font-family: Roboto;
     color: #ffffff;

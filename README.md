@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+In this project I build a Property Rental Platform by applying the concpets that I have learned in my learning.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Set Up Instructions
+- Download dependencies by running `npm install`
+- Start up the app using `npm start`
 
-## Available Scripts
+<details>
+<summary>Implementation Files</summary>
+<br/>
 
-In the project directory, you can run:
+Use these files to complete the implementation:
 
-### `npm start`
+- `src/App.js`
+- `src/components/Home/index.js`
+- `src/components/Home/index.css`
+- `src/components/Cart/index.js`
+- `src/components/Cart/index.css`
+- `src/components/CartItem/index.js`
+- `src/components/CartItem/index.css`
+- `src/components/Header/index.js`
+- `src/components/Header/index.css`
+- `src/components/RentCard/index.js`
+- `src/components/RentCard/index.css`
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Completion Instructions
+<details>
+    <summary>Functionality to be Added<summary>
+</br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Following are the features to be implemented
+- Feature 1
+    - The total amount and number of items in the cart should be displayed in the **Cart** Route
 
-### `npm test`
+- The `CartContext` has an object as a value with the following properties
+  - `CartListView` - this key stores the cart items
+  <!-- - `removeAllCartItems` - this method is used to remove all the cart items in the `cartList`
+  - `addCartItem` - this method adds the cart item to the `cartList`
+  - `removeCartItem` - this method removes the cart item from the `cartList`
+  - `incrementCartItemQuantity` - this method increases the quantity of a product in the `cartList`
+  - `decrementCartItemQuantity` - this method decreases the quantity of a product in the `cartList` -->
+</details>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Images and Icons and Logo 
+- `Website Logo` and `Property Rental Images` from google 
+- `BsPlusSquare`, `BsDashSquare` icons from `react-icons` should be used for **plus** and **minus** buttons in cart item
+- `AiFillCloseCircle` icon from react-icons should be used for **remove** button in cartItem
 
-### `npm run build`
+<details>
+<summary>Colors</summary>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div style="background-color: rgb(176, 242, 249); padding: 20px; color: rgb(5, 5, 38)">Hex: #0b69ff</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</details>
 
-### `npm run eject`
+<details>
+<summary>Font-families</summary>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Roboto, -Bree Serif
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</details>

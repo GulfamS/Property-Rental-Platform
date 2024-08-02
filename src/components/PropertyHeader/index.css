@@ -4,14 +4,39 @@
     padding: 0px 30px 0px 30px;
 }
 
+@media screen and (max-width: 768px){
+    .property-header{
+        width: 120vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .all-property{
+        font-size: 18px;
+        width: 20px;
+    }
+}
+
 .sort-icon {
     font-size: 40px;
     margin-top: 18px;
 }
 
+@media screen and (max-width: 768px) {
+    .sort-icon{
+        font-size: 28px;
+    }
+}
+
 .sort-container {
     display: flex;
     margin-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .sort-container{
+        margin-left: auto;
+    }
 }
 
 .sort-by {
@@ -20,6 +45,13 @@
     margin-left: 10px;
     font-size: 18px;
     margin-top: 28px;
+}
+
+@media screen and (max-width: 768px){
+    .sort-by{
+        font-size: 12px;
+        margin-top: 25px;
+    }
 }
 
 .select {
@@ -33,4 +65,10 @@
     outline: none;
     cursor: pointer;
     margin-top: 16px;
+}
+
+@media screen and (max-width: 768px){
+    .select{
+        margin-top: 10px;
+    }
 }
